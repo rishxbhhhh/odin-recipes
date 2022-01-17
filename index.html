@@ -1,24 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <style>
+      a {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-style: italic;
+        font-size: 20px;
+        width: 8rem;
+        margin: 0.1rem;
+        border-radius: 10px;
+      }
+
+      a:link, a:visited {
+        background-color: white;
+        color: rgba(0, 0, 0, 0.5);
+        border: 2px solid rgb(187, 209, 187);
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+      }
+      
+      a:hover, a:active {
+        background-color: rgb(212, 231, 212);
+        color: rgb(92, 56, 56);
+      }
+      </style>
     <base href="/odin-recipes/">
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Odin-Recipes</title>
   </head>
-  <body>
-    <h1>Odin Recipes:</h1>
-    <ul>
-      <li>
-        <a href="./recipes/lasagna.html"><h3>Lasagna</h3></a>
-      </li>
-      <li>
-        <a href="./recipes/lasagna2.html"><h3>Lasagna2</h3></a>
-      </li>
-      <li>
-        <a href="./recipes/lasagna3.html"><h3>Lasagna3</h3></a>
-      </li>
-    </ul>
+  <body style="background-color: antiquewhite">
+    <h1 style="margin: 3rem;font-size: xxx-large; font-family: 'Courier New', Courier, monospace;">Odin Recipes</h1>
+    <div class="container" style="display: flex; font-size: 24px; align-items: center; justify-content: center;">
+      <ul style="list-style-type: georgian;">
+        <li>
+          <a href="./recipes/lasagna.html"><h3>Lasagna</h3></a>
+        </li>
+        <li>
+          <a href="./recipes/lasagna2.html"><h3>Lasagna2</h3></a>
+        </li>
+        <li>
+          <a href="./recipes/lasagna3.html"><h3>Lasagna3</h3></a>
+        </li>
+      </ul>
+    </div>
   </body>
 </html>
